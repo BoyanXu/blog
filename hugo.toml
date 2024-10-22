@@ -2,3 +2,6 @@ baseURL = 'https://boyan.vercel.app/'
 languageCode = 'en-us'
 title = "Boyan's Blog"
 theme = 'PaperMod'
+
+[params]
+social = true
