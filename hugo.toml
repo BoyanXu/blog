@@ -37,6 +37,13 @@ UseHugoToc = true
 hideSummary = false
 showtoc = true
 tocopen = true
+socialIcons = [
+    { name = "linkedin", url = "https://www.linkedin.com/in/boyan-xu-163818148/" },
+    { name = "github", url = "https://github.com/BoyanXu" },
+    { name = "email", url = "mailto:boyan.xu@requo.in" },
+    { name = "Rss", url = "index.xml"}
+]
+
 
 [params.assets]
 
@@ -45,7 +52,6 @@ favicon16x16 = "favicon/favicon-16x16.png"
 favicon32x32 = "favicon/favicon-32x32.png"
 apple_touch_icon = "favicon/apple-touch-icon.png"
 safari_pinned_tab = "favicon/favicon.ico"
-
 
 
 [params.homeInfoParams]
