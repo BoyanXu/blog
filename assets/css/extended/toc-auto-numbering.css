@@ -1,42 +1,44 @@
 .post-single {
-    counter-reset: h2;
+    counter-reset: h2 h3 h4;
+
     h2 {
-        counter-reset: h3;
+        counter-reset: h3 h4;
+
         &::before {
             counter-increment: h2;
             content: counter(h2)".\00a0\00a0";
         }
     }
+
     h3 {
         counter-reset: h4;
+
         &::before {
             counter-increment: h3;
-            content: counter(h2)"."counter(h3)".\00a0\00a0";
+            content: counter(h2)"." counter(h3)".\00a0\00a0";
         }
     }
 }
 
 .toc {
-    counter-reset: h2;
-}
+    counter-reset: toc-h2 toc-h3;
 
-.toc ul > li {
-    counter-reset: h3;
-    list-style: none;
-}
+    ul>li {
+        counter-reset: toc-h3;
+        list-style: none;
 
-/* h2 level */
-.toc ul > li:before {
-    counter-increment: h2;
-    content: counter(h2) ".  ";
-}
+        &:before {
+            counter-increment: toc-h2;
+            content: counter(toc-h2) ". ";
+        }
 
-/* h3 level */
-.toc ul > li > ul > li {
-    counter-reset: h4;
-}
+        >ul>li {
+            counter-reset: toc-h4;
 
-.toc ul > li > ul > li:before {
-    counter-increment: h3;
-    content: counter(h2) "." counter(h3) ".  ";
+            &:before {
+                counter-increment: toc-h3;
+                content: counter(toc-h2) "." counter(toc-h3) ". ";
+            }
+        }
+    }
 }
