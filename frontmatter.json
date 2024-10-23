@@ -24,6 +24,13 @@
           "isPublishDate": true
         },
         {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isModifiedDate": true
+        },
+        {
           "title": "Content preview",
           "name": "preview",
           "type": "image"
