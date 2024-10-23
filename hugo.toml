@@ -1,5 +1,6 @@
 baseURL = 'https://boyan.vercel.app/'
 languageCode = 'en-us'
+paginate = 10
 title = "Boyan's Blog"
 theme = 'PaperMod'
 enableGitInfo = true
@@ -12,78 +13,42 @@ minifyOutput = true
 [frontmatter]
 
 [params]
+env = 'production'
+title = "Boyan's Blog"
+keywords = ['Blog', 'Portfolio', 'PaperMod']
 social = true
 defaultTheme = 'auto'
 author = "Boyan Xu"
+image = "https://i.imgur.com/dDyM1tM.png"
 hideAuthor = true
 ShowReadingTime = true
 ShowWordCount = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+hideSummary = false
+showtoc = true
+tocopen = true
+
 
 [params.homeInfoParams]
-Title = "Hi there 👋"
-Content = """
-        <div>
-            <p style="float: left; padding-right: 10px;">
-                <img alt="emoji avatar of me" src="me_ar_sticker.webp" height="100px" width="100px">
-            </p>
-            <p>
-                Everything technical gives me a lot of joy. Starting from <b>A</b> like <i>Artificial Intelligence</i> to <b>Z</b> like <i>Zener Diode</i> - I dig that stuff! 
-                This blog is a collection of the thoughts, ideas, and projects that I would like to share with the world wide web.
-            </p>
-        </div>
-        
-        <div>
-            <a href="https://github.com/dadul96">
-                <p style="float: left; padding-top: 20px; padding-right: 15px;">
-                    <img alt="github icon" src="github_icon.webp" width="32" height="32">
-                </p>
-            </a>
-            <a href="mailto:daniel.duller@gmx.net">
-                <p style="float: left; padding-top: 20px; padding-right: 15px;">
-                    <img alt="email icon" src="email_icon.webp" width="32" height="32">
-                </p>
-            </a>
-            <a href="https://www.thingiverse.com/dadul96/designs">
-                <p style="float: left; padding-top: 20px; padding-right: 15px;">
-                    <img alt="thingiverse icon" src="thingiverse_icon.webp" width="32" height="32">
-                </p>
-            </a>
-            <a href="https://www.prusaprinters.org/social/192589-dadul96/about">
-                <p style="float: left; padding-top: 20px; padding-right: 15px;">
-                    <img alt="prusaprinters icon" src="prusaprinters_icon.webp" width="32" height="32">
-                </p>
-            </a>
-            <a href="https://dadul96.github.io/index.xml">
-                <p style="float: left; padding-top: 20px; padding-right: 15px;">
-                    <img alt="rss icon" src="rss_icon.webp" width="32" height="32">
-                </p>
-            </a>
-        </div>
-"""
+Title = "Hi there, I'm Boyan. 👋"
+Content = "I'm building a venture. Previously <a href='https://nyu.edu'>@NYU</a> Tandon and <a href='https://shanghai.nyu.edu/'>@NYU Shanghai</a>."
 
-[markup.goldmark.extensions]
-definitionList = true
-footnote = true
-linkify = true
-strikethrough = true
-table = true
-taskList = true
-typographer = true
+
+[markup.tableOfContents]
+ordered = false
+startLevel = 2
+endLevel = 3
+
+
 
 [markup.goldmark.extensions.cjk]
 eastAsianLineBreaks = true
-eastAsianLineBreaksStyle = 'simple'
-escapedSpace = false
-
-[markup.goldmark.parser]
-autoHeadingID = true
-autoHeadingIDType = 'github'
-
-[markup.goldmark.parser.attribute]
-block = false
-title = true
+escapedSpace = true
 
 [markup.goldmark.renderer]
-hardWraps = false
 unsafe = true
-xhtml = false
