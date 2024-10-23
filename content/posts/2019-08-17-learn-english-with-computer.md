@@ -1,12 +1,8 @@
----
-title: Learn English with Computer
-description: ""
-date: 2019-08-17T23:48:21.697Z
-preview: ""
-draft: true
-tags: []
-categories: []
----
++++
+date = "2019-08-17T23:48:21.697Z"
+title = "Learn English with Computer"
+draft = false
++++
 
 
 > 本篇文章系编写开源软件 Vocabulary Picker 和 Vocabulary Manager 初衷及感想

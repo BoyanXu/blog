@@ -1,6 +1,7 @@
 +++
-date = '2024-10-22T13:35:12-04:00'
-title = 'Version of Mind'
+date = "2024-10-22T13:35:12-04:00"
+title = "Version of Mind"
+draft = false
 +++
 
 To synthesize knowledge of a complicated subject that doesn't fit into intuition, humans need a time-consuming read/write process to build symbols that abstract cognition.
