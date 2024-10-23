@@ -12,3 +12,5 @@ minifyOutput = true
 [params]
 social = true
 defaultTheme = 'auto'
+
+[frontmatter]
