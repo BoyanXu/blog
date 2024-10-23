@@ -1,6 +1,5 @@
 +++
 date = "2024-10-22T13:35:12-04:00"
-lastmod = "2024-10-23T00:30:42.879Z"
 title = "Version of Mind"
 draft = false
 +++

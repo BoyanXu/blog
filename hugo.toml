@@ -9,8 +9,13 @@ enableGitInfo = true
 disableXML = true
 minifyOutput = true
 
+[frontmatter]
+
 [params]
 social = true
 defaultTheme = 'auto'
+author = "Boyan Xu"
+hideAuthor = true
 
-[frontmatter]
+ShowReadingTime = true
+ShowWordCount = true

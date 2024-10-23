@@ -1,6 +1,5 @@
 +++
 date = "2019-08-17T23:48:21.697Z"
-lastmod = "2019-08-17T23:48:21.697Z"
 title = "Learn English with Computer"
 draft = false
 +++
