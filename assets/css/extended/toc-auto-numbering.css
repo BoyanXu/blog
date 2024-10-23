@@ -1,0 +1,42 @@
+.post-single {
+    counter-reset: h2;
+    h2 {
+        counter-reset: h3;
+        &::before {
+            counter-increment: h2;
+            content: counter(h2)".\00a0\00a0";
+        }
+    }
+    h3 {
+        counter-reset: h4;
+        &::before {
+            counter-increment: h3;
+            content: counter(h2)"."counter(h3)".\00a0\00a0";
+        }
+    }
+}
+
+.toc {
+    counter-reset: h2;
+}
+
+.toc ul > li {
+    counter-reset: h3;
+    list-style: none;
+}
+
+/* h2 level */
+.toc ul > li:before {
+    counter-increment: h2;
+    content: counter(h2) ".  ";
+}
+
+/* h3 level */
+.toc ul > li > ul > li {
+    counter-reset: h4;
+}
+
+.toc ul > li > ul > li:before {
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ".  ";
+}

@@ -15,9 +15,11 @@ minifyOutput = true
 [params]
 env = 'production'
 title = "Boyan's Blog"
+description = "Boyan's Blog"
 keywords = ['Blog', 'Portfolio', 'PaperMod']
 social = true
 defaultTheme = 'auto'
+DateFormat = "January 2, 2006"
 author = "Boyan Xu"
 image = "https://i.imgur.com/dDyM1tM.png"
 hideAuthor = true
@@ -26,7 +28,7 @@ ShowWordCount = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 hideSummary = false
@@ -43,6 +45,7 @@ Content = "I'm building a venture. Previously <a href='https://nyu.edu'>@NYU</a>
 ordered = false
 startLevel = 2
 endLevel = 3
+# Implementation assets/css/extended/toc-auto-numbering.css assume max level is 4
 
 
 
