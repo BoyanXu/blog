@@ -32,4 +32,4 @@ The result is market bifurcation  [^2]  :
 
 [^1]: Smart Brevity: The Power of Saying More with Less: https://www.axios.com/smart-brevity 
 
-[^2]: Market bifurcation of journalism: https://v.flomoapp.com/mine/?memo_id=MTM5MDk1OTEx 
+[^2]: Market bifurcation of journalism: [{{< ref "2024-10-23-market-bifurcation-of-journalism.md" >}}]({{< ref "2024-10-23-market-bifurcation-of-journalism.md" >}})
