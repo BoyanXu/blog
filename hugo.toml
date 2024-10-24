@@ -41,7 +41,9 @@ socialIcons = [
     { name = "linkedin", url = "https://www.linkedin.com/in/boyan-xu-163818148/" },
     { name = "github", url = "https://github.com/BoyanXu" },
     { name = "email", url = "mailto:boyan.xu@requo.in" },
-    { name = "Rss", url = "index.xml"}
+    { name = "Rss", url = "index.xml"},
+    { name = "goodreads", url = "https://www.goodreads.com/boyanxu"},
+    { name = "lastfm", url = "https://www.last.fm/user/boyanxu"}
 ]
 
 
