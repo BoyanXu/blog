@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/boyan_xu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://boyan.vercel.app
+  * I am boyan_xu (https://keybase.io/boyan_xu) on keybase.
+  * I have a public key ASD7B0t3Yho7niSlbQp1KcPsMZQvIP-UVMtmqgsTH-Muego
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fb074b77621a3b9e24a56d0a7529c3ec31942f20ff9454cb66aa0b131fe32e7a0a",
+      "host": "keybase.io",
+      "kid": "0120fb074b77621a3b9e24a56d0a7529c3ec31942f20ff9454cb66aa0b131fe32e7a0a",
+      "uid": "6283f68f19c6191bcc698432c0918919",
+      "username": "boyan_xu"
+    },
+    "merkle_root": {
+      "ctime": 1729777007,
+      "hash": "54f8bb087da4f8d96fa8e1ab1822f1aa22ad45759845e8d03706ccd6a72d44dd0bf7c98bb3bf8c1125ea9665932419110f166db7c02b95df6dc8c02e34ae1ad6",
+      "hash_meta": "bd1e2b21f8f777b1d4f6916bd38a9f2221624f27712dd0a2f5a290dec1df6aa5",
+      "seqno": 26237854
+    },
+    "service": {
+      "entropy": "+iDiGbxjwsoxMed7wZ5qzSap",
+      "hostname": "boyan.vercel.app",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.0"
+  },
+  "ctime": 1729777035,
+  "expire_in": 504576000,
+  "prev": "7aecb592e63212a6082f0b1582b6acf5ada0d7c7408fc3559260f8fdb6c61999",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+wdLd2IaO54kpW0KdSnD7DGULyD/lFTLZqoLEx/jLnoKp3BheWxvYWTESpcCBsQgeuy1kuYyEqYILwsVgras9a2g18dAj8NVkmD4/bbGGZnEIAkw0ypgdFGGRigHAuPIb91kw4jiA0gJepVSMto9RykiAgHCo3NpZ8RAkrQWKKa7LqtYDMjGzy+6fFmdhEsCUS2XYczrcgoj2F0Mo3KnVrvTzJ6yO2bXTGjX7fTw18zblo6ULRGwtsiDAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGef16JCX3KKJBjlDop5ufGbo7K2uY1lfOrgnnwAmRQeo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/boyan_xu
+
+==================================================================
