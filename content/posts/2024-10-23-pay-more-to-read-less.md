@@ -16,7 +16,7 @@ Just as fuel became too expensive for gas-guzzling vehicles in 2008, readers' ti
 3. Seeking video or infographic alternatives, or in-person services like training and consulting.
 
 Since time has become so "expensive" for readers,
-1. Readers are less willing to pay with their TIME for long content but more willing to pay MONEY for content that saves their time
+1. Readers are less willing to pay with their TIME for long content but more willing to pay MONEY for content that saves their time (pay for editing)
 2. Raw information itself becomes cheaper (less profitable), while analysis and synthesis becomes pricier (more profitable).
 
 Just as the auto industry had to adapt to expensive fuel with more fuel-efficient cars and less large SUVs, the publishing industry is adapting to readers' "expensive" time:
