@@ -1,5 +1,5 @@
 +++
-title = "Pay More to Read Less"
+title = "Analyst Working Class"
 description = ""
 date = "2024-10-24T00:25:17.122Z"
 preview = ""
@@ -7,6 +7,8 @@ draft = false
 tags = [ ]
 categories = [ ]
 +++
+
+## Pay More to Read Less
 
 With the internet, **the cost to consume texts has exceeded the cost to supply them**.
 
@@ -29,6 +31,9 @@ The result is market bifurcation  [^2]  :
 - Premium market emerges for well-researched, concise analysis
 - Middle ground (traditional long-form without clear value-add) struggles
 
+## Information as a Product
+
+When analysis of information becomes a premium product, the corresponding workers, analysts, who provide it, emerge as a new working class.
 
 [^1]: Smart Brevity: The Power of Saying More with Less: https://www.axios.com/smart-brevity 
 
