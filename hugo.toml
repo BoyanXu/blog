@@ -59,7 +59,7 @@ safari_pinned_tab = "favicon/favicon.ico"
 
 [params.homeInfoParams]
 Title = "Hi there, I'm Boyan. 👋"
-Content = "I'm building a venture. Previously <a href='https://nyu.edu'>@NYU</a> Tandon and <a href='https://shanghai.nyu.edu/'>@NYU Shanghai</a>."
+Content = "Building a venture <a href='https://requo.in'>@Requo Inc</a>. Alumni of <a href='https://nyu.edu'>@NYU Tandon</a> and <a href='https://shanghai.nyu.edu/'>@NYU Shanghai</a>."
 
 
 [markup.tableOfContents]
